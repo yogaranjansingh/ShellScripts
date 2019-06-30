@@ -1,6 +1,7 @@
 # LoginScript
 
-Use this script to login to any instance prod or preprod for all services (SMS, Voice, Phoneid, IPgeo, Geo)
+Use this script to login to any instance prod or preprod for all services/projects to be configured.
+example(SMS, Voice, Phoneid, IPgeo, Geo)
 
 parameter 1 service-name (sms , voice , geocode , ipgeocode, phoneid)
 
@@ -11,7 +12,9 @@ parameter 3 environment (prod, preprod)
 parameter 4 region (west, east)
 
 
-*Note* For geocode and ipgeocode region parameteer is not required
+*Note* lets say for geocode and ipgeocode region parameteer is not required, since the are single region
+
+*Note* bastion is harcoded, it can be defined in variable as well 
 
 Example usage
 
